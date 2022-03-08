@@ -1,17 +1,12 @@
-zkhack-there-is-something-in-the-AIR
+late(!) submission: zkhack-there-is-something-in-the-AIR
 -------------------
+Collaborators: Austin Liu, Ole Spjeldnæs 
 
-**DO NOT FORK THE REPOSITORY, AS IT WILL MAKE YOUR SOLUTION PUBLIC. INSTEAD, CLONE IT AND ADD A NEW REMOTE TO A PRIVATE REPOSITORY, OR SUBMIT A GIST**
-
-Trying it out
-=============
-
-Use `cargo run --release` to see it in action
-
-Submitting a solution
-=====================
-
-[Submit a solution](https://xng1lsio92y.typeform.com/to/aUSCQrcW)
+Idea
+==================
+1. Discovered missing boundary constraints for capacity of Rescue hash (in `lib.rs`)
+2. Changed in `prover.rs` the initial value for register #12 from 8 to 1
+3. Copied Rescue::merge() from official Winterfell to puzzle repo, changed the capacity initial value from (8,0,0,0) to (1,0,0,0), and used this "evil" merge function to calculate nullifer, which is used as public input to the execution trace.
 
 Puzzle description
 ==================
