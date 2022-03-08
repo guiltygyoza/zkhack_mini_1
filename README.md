@@ -5,8 +5,8 @@ Collaborators: Austin Liu, Ole Spjeldnæs
 Idea
 ==================
 1. Discovered missing boundary constraints for capacity of Rescue hash (in `lib.rs`)
-2. Changed in `prover.rs` the initial value for register #12 from 8 to 1
-3. Copied Rescue::merge() from official Winterfell to puzzle repo, changed the capacity initial value from (8,0,0,0) to (1,0,0,0), and used this "evil" merge function to calculate nullifer, which is used as public input to the execution trace.
+2. Changed in `prover.rs` the initial value for register #12 from `8` to `1`
+3. Copied `Rescue::merge()` from official Winterfell to puzzle repo, changed the capacity initial value from `(8,0,0,0)` to `(1,0,0,0)`, and used this "evil" merge function to calculate `nullifier`, which is used as public input to the execution trace.
 
 Puzzle description
 ==================
